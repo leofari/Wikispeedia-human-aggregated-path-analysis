@@ -66,7 +66,7 @@ Full details and figures are in the paper.
 ## Repository contents
 ```
 .
-├── Wikispeedia Paper Farina.pdf
+├── wikispeedia_analysis_farina.pdf
 ├── wikispeedia.R
 └── README.md
 ```
@@ -94,8 +94,7 @@ You will need the following files from the dataset:
 
 Place them in a folder called:
 
-wikispeedia_paths-and-graph/
-
+`wikispeedia_paths-and-graph/`
 
 in the same directory as the R script.
 
