@@ -64,14 +64,12 @@ Full details and figures are in the paper.
 ---
 
 ## Repository contents
+```
 .
-
 ├── Wikispeedia Paper Farina.pdf
-
 ├── wikispeedia.R
-
 └── README.md
-
+```
 
 ---
 
