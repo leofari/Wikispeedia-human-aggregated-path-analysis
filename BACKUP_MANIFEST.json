@@ -1,0 +1,8 @@
+{
+  "device": "Middletown MacBook",
+  "captured_date": "2026-11-09",
+  "repository": "leofari/Wikispeedia-human-aggregated-path-analysis",
+  "primary_source": "Existing remote main baseline `de668b946e4622e2f0df4715431b17fa012448bd`. Primary application source was retained; unique local versions are preserved on archive branches.",
+  "versions": [],
+  "security": "Credentials, transcripts and private runtime data excluded. Public identity keys and license checksums are not secrets. See local security review for scan evidence."
+}
