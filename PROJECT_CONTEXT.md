@@ -1,43 +1,47 @@
 # Wikispeedia path analysis
 
-Prepared 2026-11-09 from Middletown source inspection. Prepared from the approved Middletown backup plan; consult Git refs and the local verification report for publication status.
+Last reviewed: 2026-11-09, Middletown MacBook.
 
 ## Purpose
 
 Compare human Wikipedia navigation with the hyperlink graph.
 
-## Architecture and entry points
+## Architecture
 
 R network analysis script and existing research README.
 
-## Repository and version identity
+## Canonical repository and backup state
 
-Canonical destination: https://github.com/leofari/Wikispeedia-human-aggregated-path-analysis (public).
+https://github.com/leofari/Wikispeedia-human-aggregated-path-analysis — **public**. Reuse this repository; do not create another copy on the second Mac. Primary branch: `main`.
 
-Preferred source/version: Existing GitHub main.
+The approved Middletown source/context backup was pushed and verified. Its initial verified primary tip before this documentation refresh was `cef67d7d1e18c4ca22f84c2b387a95f23e989809`. Use `git rev-parse HEAD` for the current tip. Existing Git history and remote branches were preserved.
 
-Local source already backed up identically.
+## Version evidence
 
 Both differently named local R scripts have Git blob 60d205464cafacc23ea57125a637d58534395668, identical to GitHub wikispeedia.R at de668b946e4622e2f0df4715431b17fa012448bd.
 
-## Setup and validation
+## Preserved alternate versions
 
-Read the selected version's README, dependency lockfiles and existing AI instructions first. Restore the declared environment; do not infer commands or credentials from another project. Consult package.json scripts, pyproject.toml or existing test documentation for exact commands. No application tests were run in this backup discovery; passing file/archive integrity checks does not establish that the application works.
+- No additional source archive branch was needed.
 
-Machine-specific paths must be documented as configurable inputs. Never run deployment, mail sending, application submission, vault modification, or paid API calls as a backup check.
+Archive branches preserve historical/alternate states and are not automatically merged. Non-Git snapshot roots do not imply shared chronological Git ancestry. Before developing on another Mac, fetch all branches and inspect the archive provenance and manifests.
 
-## Current constraints and next work
+## Setup and checks
+
+Read README.md, existing AI instructions, dependency declarations and lockfiles before installing or running. Exact package scripts inspected during discovery appear below where available. Machine-specific paths in the original scripts are known portability constraints, not a guarantee that those paths exist on another Mac. Do not replace private data/credentials with guesses.
+
+Backup checks verified Git ancestry, remote branch hashes, captured source-file bytes, source exclusions, and secret-scan findings. Application regression/integration tests were not run during backup. The sanitized quote-builder JavaScript/Python passed syntax checks. No application submission, mail sending, deployment or vault modification was performed as a backup test.
+
+## Next development step
 
 Read the existing README and review external dataset paths before rerunning.
 
-No duplicate source commit, branch or repository. Add requested handoff documentation only.
-
-## Private state and excluded material
+## Private state and deliberate exclusions
 
 Exclude unrelated local files; existing repository is PUBLIC.
 
-Conversation transcripts are stored only in the separate local history archive. Do not add them to this repository.
+Complete Codex transcripts stay in the separate local history ZIP and must never enter this repository. Original private inputs remain on the source Mac. The eight unconfirmed coursework/tutorial candidates are outside this approved backup set.
 
-## Maintaining this context
+## Handoff maintenance
 
-After meaningful development, update this file when architecture, setup, dependencies, behavior, decisions or constraints change. Update HANDOFF.md at the end of every development session, including interrupted work. Keep facts concise and distinguish verified behavior from plans and assumptions. See AGENTS.md.
+At the start of development, read PROJECT_CONTEXT.md, HANDOFF.md and AGENTS.md plus applicable nested instructions. After each meaningful session, update HANDOFF.md with actual branch/commit, changes, checks/results, outstanding issues, uncommitted work and next steps. Update this context when architecture, setup, dependencies, data contracts or decisions change. Keep existing README/CLAUDE.md/progress documents consistent. Do not paste transcripts or credentials.

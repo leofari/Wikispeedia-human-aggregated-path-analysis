@@ -1,29 +1,34 @@
-# Development handoff — Wikispeedia path analysis
+# Current development handoff
 
-Last reviewed: 2026-11-09, Middletown MacBook.
+Reviewed: 2026-11-09 — Middletown MacBook.
 
-## Starting point
+## Current state
 
-Existing GitHub main
+The approved source/context backup is on https://github.com/leofari/Wikispeedia-human-aggregated-path-analysis (public). Start from `main`; fetch all remote branches before comparing with another Mac. Initial verified main before this documentation refresh: `cef67d7d1e18c4ca22f84c2b387a95f23e989809`. Current commit: inspect `git rev-parse HEAD`.
 
-Status: Local source already backed up identically. The backup plan was approved on 2026-11-09. This file describes the staged version; Git refs and the external verification report establish publication status.
+Compare human Wikipedia navigation with the hyperlink graph.
 
-## What is known
+## Completed in this backup
 
-Both differently named local R scripts have Git blob 60d205464cafacc23ea57125a637d58534395668, identical to GitHub wikispeedia.R at de668b946e4622e2f0df4715431b17fa012448bd.
+- Preserved existing history and meaningful alternate versions without force-pushing or deleting branches.
+- Added project context, source provenance and an additive AGENTS.md handoff-maintenance instruction.
+- Kept Codex transcripts, credentials and private runtime data out of the upload.
+- Verified source manifests and remote commit identities; application behavior was not newly regression-tested.
 
-## Verification
+## Alternate versions
 
-File hashes and selected version differences inspected. Application tests: not run during backup discovery. Remote histories must be fetched and audited again immediately before any push.
+- No additional source archive branch was needed.
 
-## Next action
+## Next concrete step
 
 Read the existing README and review external dataset paths before rerunning.
 
-## Preservation
+## Constraints
 
-No duplicate source commit, branch or repository. Add requested handoff documentation only.
+Exclude unrelated local files; existing repository is PUBLIC.
 
-## After the next development session
+Original source working trees were not edited by the backup. Do not assume a working deployment or reproduce a private-data environment from the source snapshot alone.
 
-Replace this current-state note with the actual branch/commit, concise changes, checks run and results, remaining defects, uncommitted work, decisions and next steps. Record limitations honestly. Update PROJECT_CONTEXT.md and existing project progress docs where relevant. Do not paste chat logs, credentials, job records or personal source documents.
+## Update after development
+
+Replace this current-state note with actual branch/commit, changes, checks and results, known issues, uncommitted work, decisions and next steps. Update PROJECT_CONTEXT.md when setup or architecture changes. State what remains unverified. Do not commit chat logs, credentials or unrelated personal data.

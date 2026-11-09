@@ -23,3 +23,7 @@ No duplicate source commit, branch or repository. Add requested handoff document
 Existing remote main baseline `de668b946e4622e2f0df4715431b17fa012448bd`. Primary application source was retained; unique local versions are preserved on archive branches.
 
 Original working directories were read only. Source history is preserved where it existed and passed audit. Archive snapshots with no original Git metadata must not be treated as evidence of shared Git ancestry. Conversation transcripts are excluded.
+
+## Initial remote verification
+
+Initial approved main verified at `cef67d7d1e18c4ca22f84c2b387a95f23e989809` on 2026-11-09. 0 preservation branches were verified. A following documentation-only commit finalizes current handoff context; consult current Git refs for its hash.
