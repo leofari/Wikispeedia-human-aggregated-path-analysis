@@ -149,8 +149,3 @@ Proceedings of WWW 2012.
 
 This repository contains only original analysis code and writing.
 The Wikispeedia dataset is distributed separately by Stanford SNAP and remains under their license.
-
-
-## AI and session handoff
-
-Read [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md), [HANDOFF.md](HANDOFF.md) and [AGENTS.md](AGENTS.md) before development. Update the handoff after each meaningful development session and the context after architecture/setup changes. See [BACKUP_PROVENANCE.md](BACKUP_PROVENANCE.md) for preserved versions and device provenance. Never add conversation transcripts or credentials.
